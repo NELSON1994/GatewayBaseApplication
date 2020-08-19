@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2020-08-19T11:25:35.086430">
+  <info>
+    Q2 started, deployDir=C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:25:35.451052400" lifespan="280ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:25:35.458226900" lifespan="4ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\05_server.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-19T11:25:35.480491900">
+  <warn>
+    init
+    <exception name="com/sleepycat/je/EnvironmentConfig">
+    java.lang.NoClassDefFoundError: com/sleepycat/je/EnvironmentConfig
+	at org.jpos.space.JESpace.<init>(JESpace.java:75)
+	at org.jpos.space.JESpace.getSpace(JESpace.java:328)
+	at org.jpos.space.JESpace.getSpace(JESpace.java:334)
+	at org.jpos.space.SpaceFactory.createSpace(SpaceFactory.java:143)
+	at org.jpos.space.SpaceFactory.getSpace(SpaceFactory.java:117)
+	at org.jpos.space.SpaceFactory.getSpace(SpaceFactory.java:105)
+	at org.jpos.transaction.TransactionManager.initService(TransactionManager.java:112)
+	at org.jpos.q2.QBeanSupport.init(QBeanSupport.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:112)
+	at java.management/com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:46)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.jpos.q2.QFactory.createQBean(QFactory.java:121)
+	at org.jpos.q2.Q2.deploy(Q2.java:581)
+	at org.jpos.q2.Q2.deploy(Q2.java:391)
+	at org.jpos.q2.Q2.run(Q2.java:259)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: com.sleepycat.je.EnvironmentConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 more
+    </exception>
+  </warn>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:25:35.482418600" lifespan="24ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\30_txn_mgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:25:35.484413200" lifespan="1ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-19T11:25:35.509949100">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="ISOServer.server" at="2020-08-19T11:25:35.511441700">
+  <iso-server>
+    listening on port 9629
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-19T11:25:35.511441700">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.8 (Oracle Corporation) AES-secure
+     process name: 20244@DESKTOP-4DN7F97
+        user name: user
+             host: DESKTOP-4DN7F97/192.168.137.1
+              cwd: C:\Users\user\Downloads\GatewayOwnSettingProject
+       free space: 188.2 GiB
+          version: 2.1.2 (6f9379a)
+         instance: 6fb21ef6-da12-4e14-b9ab-56f1dcdd390a
+           uptime: 00:00:00.770 (-1.000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 256/47/208
+         encoding: UTF-8
+         timezone: Africa/Nairobi (Eastern Africa Time) +03:00
+    watch service: sun.nio.fs.WindowsWatchService
+            clock: 1597825535 2020-08-19T08:25:35.512293600Z
+     thread count: 34
+     peak threads: 34
+     user threads: 25
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI Scheduler(0),5,system]
+            Thread[main,5,main]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[Catalina-utility-1,1,main]
+            Thread[Catalina-utility-2,1,main]
+            Thread[container-0,5,main]
+            Thread[http-nio-4545-BlockPoller,5,main]
+            Thread[http-nio-4545-exec-1,5,main]
+            Thread[http-nio-4545-exec-2,5,main]
+            Thread[http-nio-4545-exec-3,5,main]
+            Thread[http-nio-4545-exec-4,5,main]
+            Thread[http-nio-4545-exec-5,5,main]
+            Thread[http-nio-4545-exec-6,5,main]
+            Thread[http-nio-4545-exec-7,5,main]
+            Thread[http-nio-4545-exec-8,5,main]
+            Thread[http-nio-4545-exec-9,5,main]
+            Thread[http-nio-4545-exec-10,5,main]
+            Thread[http-nio-4545-ClientPoller,5,main]
+            Thread[http-nio-4545-Acceptor,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-6fb21ef6-da12-4e14-b9ab-56f1dcdd390a,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[ISOServer-ThreadPool.PooledThread-0,5,ISOServer-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+            Thread[RMI TCP Connection(1)-192.168.137.1,5,RMI Runtime]
+            Thread[RMI TCP Connection(2)-192.168.137.1,5,RMI Runtime]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      tspace:txnmgr: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      ISOServer: org.jpos.q2.iso.QServer
+      Q2: org.jpos.q2.Q2
+      server.ISOServer: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      transient:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2020-08-19T11:37:55.127384200">
+  <info>
+    Q2 started, deployDir=C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:37:55.575645600" lifespan="438ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:37:55.588611600" lifespan="7ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\05_server.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-19T11:37:55.607592200">
+  <warn>
+    init
+    <exception name="com/sleepycat/je/EnvironmentConfig">
+    java.lang.NoClassDefFoundError: com/sleepycat/je/EnvironmentConfig
+	at org.jpos.space.JESpace.<init>(JESpace.java:75)
+	at org.jpos.space.JESpace.getSpace(JESpace.java:328)
+	at org.jpos.space.JESpace.getSpace(JESpace.java:334)
+	at org.jpos.space.SpaceFactory.createSpace(SpaceFactory.java:143)
+	at org.jpos.space.SpaceFactory.getSpace(SpaceFactory.java:117)
+	at org.jpos.space.SpaceFactory.getSpace(SpaceFactory.java:105)
+	at org.jpos.transaction.TransactionManager.initService(TransactionManager.java:112)
+	at org.jpos.q2.QBeanSupport.init(QBeanSupport.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:112)
+	at java.management/com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:46)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.jpos.q2.QFactory.createQBean(QFactory.java:121)
+	at org.jpos.q2.Q2.deploy(Q2.java:581)
+	at org.jpos.q2.Q2.deploy(Q2.java:391)
+	at org.jpos.q2.Q2.run(Q2.java:259)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: com.sleepycat.je.EnvironmentConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 more
+    </exception>
+  </warn>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:37:55.610550500" lifespan="21ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\30_txn_mgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:37:55.617530200" lifespan="5ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-19T11:37:55.640469600">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="ISOServer.server" at="2020-08-19T11:37:55.641569300">
+  <iso-server>
+    listening on port 9629
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-19T11:37:55.641569300">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.8 (Oracle Corporation) AES-secure
+     process name: 12504@DESKTOP-4DN7F97
+        user name: user
+             host: DESKTOP-4DN7F97/192.168.137.1
+              cwd: C:\Users\user\Downloads\GatewayOwnSettingProject
+       free space: 188.2 GiB
+          version: 2.1.2 (6f9379a)
+         instance: ca7b9338-b718-4e12-b3ff-9129020941d5
+           uptime: 00:00:00.612 (-1.000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 256/47/208
+         encoding: UTF-8
+         timezone: Africa/Nairobi (Eastern Africa Time) +03:00
+    watch service: sun.nio.fs.WindowsWatchService
+            clock: 1597826275 2020-08-19T08:37:55.642630800Z
+     thread count: 34
+     peak threads: 34
+     user threads: 25
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI Scheduler(0),5,system]
+            Thread[main,5,main]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[Catalina-utility-1,1,main]
+            Thread[Catalina-utility-2,1,main]
+            Thread[container-0,5,main]
+            Thread[http-nio-4545-BlockPoller,5,main]
+            Thread[http-nio-4545-exec-1,5,main]
+            Thread[http-nio-4545-exec-2,5,main]
+            Thread[http-nio-4545-exec-3,5,main]
+            Thread[http-nio-4545-exec-4,5,main]
+            Thread[http-nio-4545-exec-5,5,main]
+            Thread[http-nio-4545-exec-6,5,main]
+            Thread[http-nio-4545-exec-7,5,main]
+            Thread[http-nio-4545-exec-8,5,main]
+            Thread[http-nio-4545-exec-9,5,main]
+            Thread[http-nio-4545-exec-10,5,main]
+            Thread[http-nio-4545-ClientPoller,5,main]
+            Thread[http-nio-4545-Acceptor,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-ca7b9338-b718-4e12-b3ff-9129020941d5,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[ISOServer-ThreadPool.PooledThread-0,5,ISOServer-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+            Thread[RMI TCP Connection(1)-192.168.137.1,5,RMI Runtime]
+            Thread[RMI TCP Connection(2)-192.168.137.1,5,RMI Runtime]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      tspace:txnmgr: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      ISOServer: org.jpos.q2.iso.QServer
+      Q2: org.jpos.q2.Q2
+      server.ISOServer: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      transient:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2020-08-19T11:40:01.237345200">
+  <info>
+    Q2 started, deployDir=C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:40:01.674234200" lifespan="426ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:40:01.686201700" lifespan="7ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\05_server.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-19T11:40:01.706149">
+  <warn>
+    init
+    <exception name="com/sleepycat/je/EnvironmentConfig">
+    java.lang.NoClassDefFoundError: com/sleepycat/je/EnvironmentConfig
+	at org.jpos.space.JESpace.<init>(JESpace.java:75)
+	at org.jpos.space.JESpace.getSpace(JESpace.java:328)
+	at org.jpos.space.JESpace.getSpace(JESpace.java:334)
+	at org.jpos.space.SpaceFactory.createSpace(SpaceFactory.java:143)
+	at org.jpos.space.SpaceFactory.getSpace(SpaceFactory.java:117)
+	at org.jpos.space.SpaceFactory.getSpace(SpaceFactory.java:105)
+	at org.jpos.transaction.TransactionManager.initService(TransactionManager.java:112)
+	at org.jpos.q2.QBeanSupport.init(QBeanSupport.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:112)
+	at java.management/com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:46)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.jpos.q2.QFactory.createQBean(QFactory.java:121)
+	at org.jpos.q2.Q2.deploy(Q2.java:581)
+	at org.jpos.q2.Q2.deploy(Q2.java:391)
+	at org.jpos.q2.Q2.run(Q2.java:259)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: com.sleepycat.je.EnvironmentConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 more
+    </exception>
+  </warn>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:40:01.709141300" lifespan="21ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\30_txn_mgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:40:01.715124600" lifespan="4ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-19T11:40:01.738063400">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="ISOServer.server" at="2020-08-19T11:40:01.739061800">
+  <iso-server>
+    listening on port 9629
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-19T11:40:01.739061800">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.8 (Oracle Corporation) AES-secure
+     process name: 1044@DESKTOP-4DN7F97
+        user name: user
+             host: DESKTOP-4DN7F97/192.168.137.1
+              cwd: C:\Users\user\Downloads\GatewayOwnSettingProject
+       free space: 188.2 GiB
+          version: 2.1.2 (6f9379a)
+         instance: d3ba5e1d-e625-4864-8042-9833a34216a0
+           uptime: 00:00:00.585 (-1.000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 256/47/208
+         encoding: UTF-8
+         timezone: Africa/Nairobi (Eastern Africa Time) +03:00
+    watch service: sun.nio.fs.WindowsWatchService
+            clock: 1597826401 2020-08-19T08:40:01.740059Z
+     thread count: 34
+     peak threads: 34
+     user threads: 25
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI Scheduler(0),5,system]
+            Thread[main,5,main]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[Catalina-utility-1,1,main]
+            Thread[Catalina-utility-2,1,main]
+            Thread[container-0,5,main]
+            Thread[http-nio-4545-BlockPoller,5,main]
+            Thread[http-nio-4545-exec-1,5,main]
+            Thread[http-nio-4545-exec-2,5,main]
+            Thread[http-nio-4545-exec-3,5,main]
+            Thread[http-nio-4545-exec-4,5,main]
+            Thread[http-nio-4545-exec-5,5,main]
+            Thread[http-nio-4545-exec-6,5,main]
+            Thread[http-nio-4545-exec-7,5,main]
+            Thread[http-nio-4545-exec-8,5,main]
+            Thread[http-nio-4545-exec-9,5,main]
+            Thread[http-nio-4545-exec-10,5,main]
+            Thread[http-nio-4545-ClientPoller,5,main]
+            Thread[http-nio-4545-Acceptor,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-d3ba5e1d-e625-4864-8042-9833a34216a0,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[ISOServer-ThreadPool.PooledThread-0,5,ISOServer-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+            Thread[RMI TCP Connection(1)-192.168.137.1,5,RMI Runtime]
+            Thread[RMI TCP Connection(2)-192.168.137.1,5,RMI Runtime]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      tspace:txnmgr: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      ISOServer: org.jpos.q2.iso.QServer
+      Q2: org.jpos.q2.Q2
+      server.ISOServer: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      transient:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="ISOServer.server.session/127.0.0.1:55738" at="2020-08-19T11:40:47.705239100">
+  <session-start/>
+</log>
+<log realm="channel/127.0.0.1:55738" at="2020-08-19T11:40:47.756094600" lifespan="50ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- com.gatewayDemo2.GatewayOwnSettingProject.packager.TransportPackager -->
+      <header>3C00000000</header>
+      <field id="0" value="0800"/>
+      <field id="3" value="001100"/>
+      <field id="11" value="000001"/>
+      <field id="41" value="45789021"/>
+      <field id="42" value="421456908756435"/>
+      <field id="47" value="020002AB021004FGHJ022006YGHBNL"/>
+      <field id="70" value="301"/>
+      <field id="72" value="3"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="channel/127.0.0.1:55738" at="2020-08-19T11:40:47.760084500">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- com.gatewayDemo2.GatewayOwnSettingProject.packager.TransportPackager -->
+      <header>3C00000000</header>
+      <field id="0" value="0810"/>
+      <field id="3" value="000000"/>
+      <field id="11" value="000001"/>
+      <field id="12" value="202008191140"/>
+      <field id="39" value="00"/>
+      <field id="41" value="45789021"/>
+      <field id="42" value="421456908756435"/>
+      <field id="47" value="020002AB021004FGHJ022006YGHBNL"/>
+      <field id="70" value="301"/>
+      <field id="72" value="success"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:55738" at="2020-08-19T11:40:48.108020400" lifespan="346ms">
+  <receive>
+    <peer-disconnect>Connection reset</peer-disconnect>
+  </receive>
+</log>
+<log realm="ISOServer.server.session/127.0.0.1:55738" at="2020-08-19T11:40:48.109026300">
+  <session-end/>
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2020-08-19T11:42:54.183769700">
+  <info>
+    Q2 started, deployDir=C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:42:54.619000500" lifespan="425ms">
+  <version>
+    jPOS 2.1.2 master/6f9379a (2018-09-19 16:33:22 ART) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:42:54.631144400" lifespan="8ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\05_server.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2020-08-19T11:42:54.650122300">
+  <warn>
+    init
+    <exception name="com/sleepycat/je/EnvironmentConfig">
+    java.lang.NoClassDefFoundError: com/sleepycat/je/EnvironmentConfig
+	at org.jpos.space.JESpace.<init>(JESpace.java:75)
+	at org.jpos.space.JESpace.getSpace(JESpace.java:328)
+	at org.jpos.space.JESpace.getSpace(JESpace.java:334)
+	at org.jpos.space.SpaceFactory.createSpace(SpaceFactory.java:143)
+	at org.jpos.space.SpaceFactory.getSpace(SpaceFactory.java:117)
+	at org.jpos.space.SpaceFactory.getSpace(SpaceFactory.java:105)
+	at org.jpos.transaction.TransactionManager.initService(TransactionManager.java:112)
+	at org.jpos.q2.QBeanSupport.init(QBeanSupport.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260)
+	at java.management/com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:112)
+	at java.management/com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(StandardMBeanIntrospector.java:46)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.jpos.q2.QFactory.createQBean(QFactory.java:121)
+	at org.jpos.q2.Q2.deploy(Q2.java:581)
+	at org.jpos.q2.Q2.deploy(Q2.java:391)
+	at org.jpos.q2.Q2.run(Q2.java:259)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: com.sleepycat.je.EnvironmentConfig
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 more
+    </exception>
+  </warn>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:42:54.655109600" lifespan="23ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\30_txn_mgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2020-08-19T11:42:54.662090900" lifespan="5ms">
+  <info>
+    deploy: C:\Users\user\Downloads\GatewayOwnSettingProject\config\jpos\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-19T11:42:54.689018700">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="ISOServer.server" at="2020-08-19T11:42:54.690015900">
+  <iso-server>
+    listening on port 9629
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2020-08-19T11:42:54.690015900">
+  <info>
+               OS: Windows 10 (10.0)
+             Java: 11.0.8 (Oracle Corporation) AES-secure
+     process name: 21792@DESKTOP-4DN7F97
+        user name: user
+             host: DESKTOP-4DN7F97/192.168.137.1
+              cwd: C:\Users\user\Downloads\GatewayOwnSettingProject
+       free space: 188.2 GiB
+          version: 2.1.2 (6f9379a)
+         instance: 38f49077-4207-4346-b7d2-f962bbb7655f
+           uptime: 00:00:00.593 (-1.000000)
+       processors: 8
+           drift : 0
+    memory(t/u/f): 256/48/207
+         encoding: UTF-8
+         timezone: Africa/Nairobi (Eastern Africa Time) +03:00
+    watch service: sun.nio.fs.WindowsWatchService
+            clock: 1597826574 2020-08-19T08:42:54.691014400Z
+     thread count: 34
+     peak threads: 34
+     user threads: 25
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[RMI Scheduler(0),5,system]
+            Thread[main,5,main]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[Catalina-utility-1,1,main]
+            Thread[Catalina-utility-2,1,main]
+            Thread[container-0,5,main]
+            Thread[http-nio-4545-BlockPoller,5,main]
+            Thread[http-nio-4545-exec-1,5,main]
+            Thread[http-nio-4545-exec-2,5,main]
+            Thread[http-nio-4545-exec-3,5,main]
+            Thread[http-nio-4545-exec-4,5,main]
+            Thread[http-nio-4545-exec-5,5,main]
+            Thread[http-nio-4545-exec-6,5,main]
+            Thread[http-nio-4545-exec-7,5,main]
+            Thread[http-nio-4545-exec-8,5,main]
+            Thread[http-nio-4545-exec-9,5,main]
+            Thread[http-nio-4545-exec-10,5,main]
+            Thread[http-nio-4545-ClientPoller,5,main]
+            Thread[http-nio-4545-Acceptor,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-38f49077-4207-4346-b7d2-f962bbb7655f,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[ISOServer-ThreadPool.PooledThread-0,5,ISOServer-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+            Thread[RMI TCP Connection(1)-192.168.137.1,5,RMI Runtime]
+            Thread[RMI TCP Connection(2)-192.168.137.1,5,RMI Runtime]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      tspace:txnmgr: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      ISOServer: org.jpos.q2.iso.QServer
+      Q2: org.jpos.q2.Q2
+      server.ISOServer: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      logger.Q2: org.jpos.util.Logger
+      transient:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="ISOServer.server.session/127.0.0.1:55871" at="2020-08-19T11:43:03.887093700">
+  <session-start/>
+</log>
+<log realm="channel/127.0.0.1:55871" at="2020-08-19T11:43:03.927941200" lifespan="40ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- com.gatewayDemo2.GatewayOwnSettingProject.packager.TransportPackager -->
+      <field id="0" value="0800"/>
+      <field id="3" value="001100"/>
+      <field id="11" value="000001"/>
+      <field id="41" value="45789021"/>
+      <field id="42" value="421456908756435"/>
+      <field id="47" value="020002AB021004FGHJ022006YGHBNL"/>
+      <field id="70" value="301"/>
+      <field id="72" value="3"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="channel/127.0.0.1:55871" at="2020-08-19T11:43:03.930932900">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- com.gatewayDemo2.GatewayOwnSettingProject.packager.TransportPackager -->
+      <field id="0" value="0810"/>
+      <field id="3" value="000000"/>
+      <field id="11" value="000001"/>
+      <field id="12" value="202008191143"/>
+      <field id="39" value="00"/>
+      <field id="41" value="45789021"/>
+      <field id="42" value="421456908756435"/>
+      <field id="47" value="020002AB021004FGHJ022006YGHBNL"/>
+      <field id="70" value="301"/>
+      <field id="72" value="success"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:55871" at="2020-08-19T11:43:04.274391800" lifespan="343ms">
+  <receive>
+    <peer-disconnect>Connection reset</peer-disconnect>
+  </receive>
+</log>
+<log realm="ISOServer.server.session/127.0.0.1:55871" at="2020-08-19T11:43:04.274814600">
+  <session-end/>
+</log>
